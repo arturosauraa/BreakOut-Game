@@ -4,9 +4,8 @@
 #include <vector>
 #include <raymath.h>
 #include <deque>
+#include "ball.h"
 
-
-#include "game.h"
 
 using namespace std;
 
@@ -26,7 +25,6 @@ int main()
     Player player = Player();
     Ball ball = Ball();
     Brick brick = Brick();
-    Game game = Game();
     int score = 0;
 
     
